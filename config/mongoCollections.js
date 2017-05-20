@@ -15,5 +15,7 @@ let getCollectionFn = (collection) => {
     }
 }
 module.exports = {
-    courses: getCollectionFn("courses")
+    courses: getCollectionFn("courses"),
+    minors: getCollectionFn("minors"),
+    majors: getCollectionFn("majors")
 };
